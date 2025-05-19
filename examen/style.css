@@ -1,0 +1,217 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: aliceblue;
+    cursor: default;
+}
+
+/*HEADER*/
+.apartado-principal {
+    display: flex;
+}
+
+.header {
+    background-color: #b33d3d;
+    padding: 50px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primero,.segundo,.tercero,.cuarto{
+    text-align: center;
+}
+
+.primero {
+    padding-bottom: 50px;
+    align-items: center;
+}
+
+.primero h1 {
+    font-size: 30px;
+}
+
+.primero p {
+    font-style: italic;
+}
+
+.primero img {
+    width: 100px;
+    border-radius: 100%;
+    padding-bottom: 10px;
+}
+
+.segundo {
+    display: flex;
+    justify-content: center;
+}
+
+.segundo ul li {
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+
+.segundo ul li:hover {
+    transform: scale(1.1);
+    color: #ffae00;
+}
+
+.segundo a {
+    text-decoration: none;
+}
+
+.tercero {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.tercero ul {
+    display: flex;
+    gap: 20px;
+}
+
+.tercero ul li {
+    list-style: none;
+    border: solid 0px black;
+    padding: 10px;
+    background-color: #742828;
+    transition: all 0.3s ease;
+}
+
+.tercero ul li:hover {
+    transform: scale(1.1);
+    background-color: #ffae00;
+}
+
+.cuarto h1 {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+/*PRIMER SECTION*/
+.primer-section {
+    padding-top: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.primer-section h1 {
+    font-size: 35px;
+}
+
+.primer-section p {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.primerhr {
+    width: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(255, 7, 48);
+}
+
+/*SEGUNDO SECTION*/
+.estructura {
+    flex-direction: column;
+    background-image: url(/imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.segundo-section {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 70px;
+    gap: 30px;
+}
+
+.datos-segundo-section h1 {
+    font-size: 35px;
+    padding-top: 35px;
+}
+
+.datos-segundo-section p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.segundo-section img {
+    width: 600px;
+    border-radius: 1%;
+}
+
+.datos-segundo-section button {
+    padding: 15px 40px;
+    color: #742828;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+
+.datos-segundo-section button:hover {
+    transform: scale(1.1);
+    background-color: #ffae00;
+}
+
+.segundohr {
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+}
+
+/*TERCER SECTION*/
+.tercer-section {
+    display: flex;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
+    gap: 30px;
+}
+
+.datos-tercer-section h1 {
+    font-size: 35px;
+    padding-top: 35px;
+}
+
+.datos-tercer-section p {
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.tercer-section img {
+    width: 600px;
+    border-radius: 1%;
+}
+
+.datos-tercer-section button {
+    padding: 15px 40px;
+    color: #742828;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
+
+.datos-tercer-section button:hover {
+    transform: scale(1.1);
+    background-color: #ffae00;
+}
+
